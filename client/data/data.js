@@ -1,4 +1,4 @@
-const Quest=[
+export const Quest=[
     {
         id:1,
         question:"เบื่อ ทำอะไรๆก็ไม่เพลิดเพลิน",
@@ -37,5 +37,22 @@ const Quest=[
     }
 ]
 
+export const Choices=[
+    {
+        id:1,
+        choice:"ไม่เคย",
+    },
+    {
+        id:2,
+        choice:"มีบางวัน",
+    },
+    {
+        id:3,
+        choice:"มีบ่อย", 
+    },
+    {
+        id:4,
+        choice:"มีเกือบทุกวัน",
+    }
+]
 
-export default Quest;
