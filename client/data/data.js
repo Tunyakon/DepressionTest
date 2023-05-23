@@ -36,23 +36,44 @@ export const Quest=[
         question:"คิดทำร้ายตัวเอง หรือคิดว่าถ้าตายไปจะดีกว่า"
     }
 ]
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 export const Choices=[
     {
         id:1,
         choice:"ไม่เคย",
+<<<<<<< Updated upstream
+=======
+        value : 0
+>>>>>>> Stashed changes
     },
     {
         id:2,
         choice:"มีบางวัน",
+<<<<<<< Updated upstream
+=======
+        value : 1
+>>>>>>> Stashed changes
     },
     {
         id:3,
         choice:"มีบ่อย", 
+<<<<<<< Updated upstream
+=======
+        value : 2
+>>>>>>> Stashed changes
     },
     {
         id:4,
         choice:"มีเกือบทุกวัน",
+<<<<<<< Updated upstream
     }
 ]
 
+=======
+        value : 3
+    }
+]
+>>>>>>> Stashed changes

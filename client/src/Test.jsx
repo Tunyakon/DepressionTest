@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import { useState } from "react";
 import Result1 from "./Result1";
 import Result2 from "./Result2";
@@ -42,10 +43,46 @@ const Test = () => {
         }else if(sum >= 20 && sum <= 27){
             Navigate('/Result5')
         }
+=======
+import { Quest, Choices } from '../data/data';
+import { useState } from 'react';
+
+const Test = () => {
+
+    const [choisevalue, setChoisevalue] = useState(
+        {
+            value1: 0,
+            value2: 0,
+            value3: 0,
+            value4: 0,
+            value5: 0,
+            value6: 0,
+            value7: 0,
+            value8: 0,
+            value9: 0,
+        }
+    )
+
+    const addvalue = (e) => {
+        const { name, value } = e.target;
+        setChoisevalue((prev) => {
+            return {
+                ...prev,
+                [name]: value
+            }
+        })
+    }
+
+
+    const handleChoise = (e) => {
+        e.preventDefault();
+        console.log(choisevalue);
+>>>>>>> Stashed changes
     }
 
 
     return (
+<<<<<<< Updated upstream
         <div className='bg-gradient-to-br from-[#fae377] from-5% via-[#B0DAFF] via-30% to-[#e26d8a] to-99% h-full text-[#2A2F4F] pt-[50px]'>
             <div className='flex justify-center items-center font-semibold text-[35px]'>
                 <h1>ในช่วง 2 สัปดาห์ที่ผ่านมา คุณมีอาการต่อไปนี้บ่อยแค่ไหน?</h1>
@@ -271,6 +308,29 @@ const Test = () => {
                 </button>
             
             </div>
+=======
+        <div className='bg-gradient-to-br from-[#fae377] from-5% via-[#B0DAFF] via-30% to-[#e26d8a] to-99% h-screen text-[#2A2F4F] pt-[50px]'>
+            {
+                Quest.map((item, index) => {
+                    return (
+                        <div key={index} className='bg-red-600 m-5'>
+                            <h1 className='text-3xl font-bold text-center'>{item.question}</h1>
+                            <div className='flex justify-center' >
+                                {Choices.map((item, index) => {
+                                    return (
+                                        <div key={index} onChange={addvalue} name="value1">
+                                            <input type="radio" value={item.value} />
+                                            <p>{item.choice}</p>
+                                        </div>
+                                    )
+                                })}
+                            </div>
+                        </div>
+                    )
+                })
+            }
+            <button onClick={handleChoise}>Click</button>
+>>>>>>> Stashed changes
         </div>
     );
 };
