@@ -1,6 +1,7 @@
 import React from "react";
 import star from "../assets/star.png";
 import healthcare from "../assets/healthcare.png";
+import { NavLink } from "react-router-dom";
 
 function Navbar(){
     return(
@@ -16,16 +17,16 @@ function Navbar(){
             </div>
             <ul className="text-[18px] text-white flex gap-10 justify-between ">
                 <li className="hover:text-[#FFF56D] border-2 p-2 rounded-full border-[#4763db] bg-[#4763db] hover:bg-[#2746c8] hover:border-[#2746c8]">
-                    <a href="/">Home</a>
+                    <NavLink to="/">Home</NavLink>
                 </li>
                 <li className="hover:text-[#FFF56D] border-2 p-2 rounded-full border-[#4763db] bg-[#4763db] hover:bg-[#2746c8] hover:border-[#2746c8]">
-                    <a href="/test">Test</a>
+                    <NavLink to="/test">About</NavLink>
                 </li>
                 <li className="hover:text-[#FFF56D] border-2 p-2 rounded-full border-[#4763db] bg-[#4763db] hover:bg-[#2746c8] hover:border-[#2746c8]">
-                    <a href="/help">Help</a>
+                    <NavLink to="/help">Test</NavLink>
                 </li>
                 <li className="hover:text-[#FFF56D] border-2 p-2 rounded-full border-[#4763db] bg-[#4763db] hover:bg-[#2746c8] hover:border-[#2746c8]">
-                    <a href="/contact">Contact</a>
+                    <NavLink to="/contact">Contact</NavLink>
                 </li>
             </ul>
         </div>
