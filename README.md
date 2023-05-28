@@ -15,5 +15,6 @@
  
  - กดปุ่ม Test หากต้องการทำแบบทดสอบอีกครั้ง
  - กดปุ่ม Home หากต้องการกลับไปที่หน้า Homepage
+ - กดปุ่ม Help หากต้องการขอความช่วยเหลือ
  - กดปุ่ม Contact เพื่อแสดงข้อมูลผู้จัดทำ
  ![enter image description here](https://cdn.discordapp.com/attachments/1010018400984104980/1112330733659377695/image.png)
