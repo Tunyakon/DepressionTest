@@ -9,8 +9,10 @@
 
  - กดปุ่ม Get started เพื่อทำแบบทดสอบ
  ![enter image description here](https://cdn.discordapp.com/attachments/1010018400984104980/1112330092568383528/image.png)
+
  - เมื่อทำแบบทดสอบครบทั้ง 9 ข้อ กดปุ่ม "ส่งคำตอบ" เพื่อรับผลการทดสอบและคำแนะนำ
  ![enter image description here](https://cdn.discordapp.com/attachments/1010018400984104980/1112330547423871008/image.png)
+ 
  - กดปุ่ม Test หากต้องการทำแบบทดสอบอีกครั้ง
  - กดปุ่ม Home หากต้องการกลับไปที่หน้า Homepage
  - กดปุ่ม Contact เพื่อแสดงข้อมูลผู้จัดทำ
